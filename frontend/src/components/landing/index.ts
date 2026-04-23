@@ -1,0 +1,9 @@
+export { Navbar } from './Navbar';
+export { HeroSection } from './HeroSection';
+export { ProblemSection } from './ProblemSection';
+export { SolutionSection } from './SolutionSection';
+export { FeatureSection } from './FeatureSection';
+export { ProcessSection } from './ProcessSection';
+export { TrustSection } from './TrustSection';
+export { CTASection } from './CTASection';
+export { Footer } from './Footer';
