@@ -1,0 +1,19 @@
+@echo off
+echo Starting Arogya Krishi Platform...
+echo.
+echo 1. Starting Flask backend...
+start "Flask Backend" cmd /k "cd /d e:\Arogya-Krishi\ArogyaKrishi && python app.py"
+
+echo 2. Waiting 5 seconds for backend to start...
+timeout /t 5 /nobreak >nul
+
+echo 3. Starting Next.js frontend...
+start "Next.js Frontend" cmd /k "cd /d e:\Arogya-Krishi\frontend && npm run dev"
+
+echo.
+echo Both services are starting...
+echo - Backend: http://localhost:5000
+echo - Frontend: http://localhost:3000
+echo.
+echo Press any key to exit...
+pause >nul
