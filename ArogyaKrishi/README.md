@@ -272,6 +272,8 @@ git clone https://github.com/Blacksujit/ArogyaKrishi.git
 - Create a folder named `models` at the project root (same level as `app.py`).
 - Place all downloaded files directly inside the `models/` folder.
 
+- code notebooks - https://drive.google.com/drive/folders/1EBbtvWgVdUKECGkpvgrmHZElBPr_KJiD?usp=sharing
+
 Example folder structure:
 
 ```
